@@ -3,11 +3,11 @@
 An open-source repository of genetically engineered plasmids for synthetic biology, protein expression, and plant transformation. Designed and shared by Zahid under CC BY-NC 4.0 to empower DIY bioengineers and researchers.
 
 ---
-
 ## 📂 Contents
 
-- **GH1/** – Human Growth Hormone 1 (mature peptide) expression plasmid for *E. coli*  
-- *(More plasmids coming soon…)*
+- [`plasmids/GH1/`](https://github.com/3pochs/OpenPlasmid/tree/main/plasmids/GH1) – Expression plasmid for mature Human Growth Hormone 1 (GH1), codon-optimized for *E. coli*  
+- *(More plasmids coming soon – stay tuned!)*
+
 
 Each plasmid folder includes:  
 - Annotated GenBank file (`.gb`)  
