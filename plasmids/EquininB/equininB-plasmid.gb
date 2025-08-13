@@ -1,0 +1,137 @@
+LOCUS       ._EquininB              3718 bp    DNA     circular SYN 13-DEC-2024
+DEFINITION  synthetic circular DNA with Equinin B gene insert.
+ACCESSION   ._EquininB
+VERSION     ._EquininB
+KEYWORDS    pPICZ-alpha A.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+REFERENCE   1  (bases 1 to 3616)
+  AUTHORS   11111111
+  TITLE     Direct Submission
+FEATURES             Location/Qualifiers
+     source          1..3718
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     promoter        2..940
+                     /gene="Pichia pastoris AOX1"
+                     /label="AOX1 promoter"
+                     /note="inducible promoter, regulated by methanol"
+     CDS             941..1207
+                     /codon_start=1
+                     /gene="MF-alpha-1"
+                     /product="N-terminal secretion signal from S. cerevisiae
+                     alpha-factor"
+                     /label="alpha-factor secretion signal"
+                     /note="Cleavage by the Kex2 protease occurs after the
+                     dibasic KR sequence. The EA dipeptides are then removed by
+                     dipeptidyl aminopeptidase A."
+                     /translation="MRFPSIFTAVLFAASSALAAPVNTTTEDETAQIPAEAVIGYSDLE
+                     GDFDVAVLPFSNSTNNGLLFINTTIASIAAKEEGVSLEKREAEA"
+     CDS             1214..1315
+                     /gene="EquininB"
+                     /product="Equinin B antimicrobial peptide"
+                     /label="Equinin B"
+                     /codon_start=1
+                     /note="Codon-optimized for Pichia pastoris expression"
+                     /translation="GQCQRKCLGHCSKKCPKHPQCRKRCIRRCFGYCL"
+     CDS             1377..1406
+                     /codon_start=1
+                     /product="Myc (human c-Myc oncogene) epitope tag"
+                     /label="Myc"
+                     /translation="EQKLISEEDL"
+     CDS             1422..1439
+                     /codon_start=1
+                     /product="6xHis affinity tag"
+                     /label="6xHis"
+                     /translation="HHHHHH"
+     terminator      1519..1765
+                     /gene="Pichia pastoris AOX1"
+                     /label="AOX1 terminator"
+                     /note="transcription terminator for AOX1"
+     promoter        2222..2269
+                     /label="EM7 promoter"
+                     /note="synthetic bacterial promoter "
+     CDS             2288..2662
+                     /codon_start=1
+                     /gene="Sh ble from Streptoalloteichus hindustanus"
+                     /product="antibiotic-binding protein"
+                     /label="BleoR"
+                     /note="confers resistance to bleomycin, phleomycin, and
+                     Zeocin(TM)"
+                     /translation="MAKLTSAVPVLTARDVAGAVEFWTDRLGFSRDFVEDDFAGVVRDD
+                     VTLFISAVQDQVVPDNTLAWVWVRGLDELYAEWSEVVSTNFRDASGPAMTEIGEQPWGR
+                     EFALRDPAGNCVHFVAEEQD"
+     terminator      2728..2975
+                     /gene="S. cerevisiae CYC1"
+                     /label="CYC1 terminator"
+                     /note="transcription terminator for CYC1"
+     rep_origin      complement(3050..3638)
+                     /direction=LEFT
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+ORIGIN
+        1 agatctaaca tccaaagacg aaaggttgaa tgaaaccttt ttgccatccg acatccacag
+       61 gtccattctc acacataagt gccaaacgca acaggagggg atacactagc agcagaccgt
+      121 tgcaaacgca ggacctccac tcctcttctc ctcaacaccc acttttgcca tcgaaaaacc
+      181 agcccagtta ttgggcttga ttggagctcg ctcattccaa ttccttctat taggctacta
+      241 acaccatgac tttattagcc tgtctatcct ggcccccctg gcgaggttca tgtttgttta
+      301 tttccgaatg caacaagctc cgcattacac ccgaacatca ctccagatga gggctttctg
+      361 agtgtggggt caaatagttt catgttcccc aaatggccca aaactgacag tttaaacgct
+      421 gtcttggaac ctaatatgac aaaagcgtga tctcatccaa gatgaactaa gtttggttcg
+      481 ttgaaatgct aacggccagt tggtcaaaaa gaaacttcca aaagtcggca taccgtttgt
+      541 cttgtttggt attgattgac gaatgctcaa aaataatctc attaatgctt agcgcagtct
+      601 ctctatcgct tctgaacccc ggtgcacctg tgccgaaacg caaatgggga aacacccgct
+      661 ttttggatga ttatgcattg tctccacatt gtatgcttcc aagattctgg tgggaatact
+      721 gctgatagcc taacgttcat gatcaaaatt taactgttct aacccctact tgacagcaat
+      781 atataaacag aaggaagctg ccctgtctta aacctttttt tttatcatca ttattagctt
+      841 actttcataa ttgcgactgg ttccaattga caagcttttg attttaacga cttttaacga
+      901 caacttgaga agatcaaaaa acaactaatt attcgaaacg atgagatttc cttcaatttt
+      961 tactgctgtt ttattcgcag catcctccgc attagctgct ccagtcaaca ctacaacaga
+     1021 agatgaaacg gcacaaattc cggctgaagc tgtcatcggt tactcagatt tagaagggga
+     1081 tttcgatgtt gctgttttgc cattttccaa cagcacaaat aacgggttat tgtttataaa
+     1141 tactactatt gccagcattg ctgctaaaga agaaggggta tctctcgaga aaagagaggc
+     1201 tgaagctgaa ttcggtcagt gtcaaagaaa gtgcttgggt cattgctcaa agaagtgtcc
+     1261 aaaacatcct caatgccgta agcgttgcat taggagatgt ttcggctact gtttgacgtg
+     1321 gcccagccgg ccgtctcgga tcggtacctc gagccgcggc ggccgccagc tttctagaac
+     1381 aaaaactcat ctcagaagag gatctgaata gcgccgtcga ccatcatcat catcatcatt
+     1441 gagtttgtag ccttagacat gactgttcct cagttcaagt tgggcactta cgagaagacc
+     1501 ggtcttgcta gattctaatc aagaggatgt cagaatgcca tttgcctgag agatgcaggc
+     1561 ttcatttttg atactttttt atttgtaacc tatatagtat aggatttttt ttgtcatttt
+     1621 gtttcttctc gtacgagctt gctcctgatc agcctatctc gcagctgatg aatatcttgt
+     1681 ggtaggggtt tgggaaaatc attcgagttt gatgtttttc ttggtatttc ccactcctct
+     1741 tcagagtaca gaagattaag tgagaccttc gtttgtgcgg atcccccaca caccatagct
+     1801 tcaaaatgtt tctactcctt ttttactctt ccagattttc tcggactccg cgcatcgccg
+     1861 taccacttca aaacacccaa gcacagcata ctaaatttcc cctctttctt cctctagggt
+     1921 gtcgttaatt acccgtacta aaggtttgga aaagaaaaaa gagaccgcct cgtttctttt
+     1981 tcttcgtcga aaaaggcaat aaaaattttt atcacgtttc tttttcttga aaattttttt
+     2041 ttttgatttt tttctctttc gatgacctcc cattgatatt taagttaata aacggtcttc
+     2101 aatttctcaa gtttcagttt catttttctt gttctattac aacttttttt acttcttgct
+     2161 ttttttctct ttcagtgacc ttcattagaa agaaagcata gcaatctaat ctaagggcgg
+     2221 tgttgacaat taatcatcgg catagtatat cggcatagta taatacgaca aggtgaggaa
+     2281 ctaaaccatg gccaagttga ccagtgccgt tccggtgctc accgcgcgcg acgtcgccgg
+     2341 agcggtcgag ttctggaccg accggctcgg gttctcccgg gacttcgtgg aggacgactt
+     2401 cgccggtgtg gtccgggacg acgtgaccct gttcatcagc gcggtccagg accaggtggt
+     2461 gccggacaac accctggcct gggtgtgggt gcgcggcctg gacgagctgt acgccgagtg
+     2521 gtcggaggtc gtgtccacga acttccggga cgcctccggg ccggccatga ccgagatcgg
+     2581 cgagcagccg tgggggcggg agttcgccct gcgcgacccg gccggcaact gcgtgcactt
+     2641 cgtggccgag gagcaggact gacacgtccg acgcggcccg acgggtccga ggcctcggag
+     2701 atccgtcccc cttttccttt gtcgatatca tgtaattagt tatgtcacgc ttacattcac
+     2761 gccctccccc cacatccgct ctaaccgaaa aggaaggagt tagacaacct gaagtctagg
+     2821 tccctattta tttttttata gttatgttag tattaagaac gttatttata tttcaaattt
+     2881 ttcttttttt tctgtacaga cgcgtgtacg catgtaacat tatactgaaa accttgcttg
+     2941 agaaggtttt gggacgctcg aaggctttaa tttgcaagct ggagaccaac atgtgagcaa
+     3001 aaggccagca aaaggccagg aaccgtaaaa aggccgcgtt gctggcgttt ttccataggc
+     3061 tccgcccccc tgacgagcat cacaaaaatc gacgctcaag tcagaggtgg cgaaacccga
+     3121 caggactata aagataccag gcgtttcccc ctggaagctc cctcgtgcgc tctcctgttc
+     3181 cgaccctgcc gcttaccgga tacctgtccg cctttctccc ttcgggaagc gtggcgcttt
+     3241 ctcatagctc acgctgtagg tatctcagtt cggtgtaggt cgttcgctcc aagctgggct
+     3301 gtgtgcacga accccccgtt cagcccgacc gctgcgcctt atccggtaac tatcgtcttg
+     3361 agtccaaccc ggtaagacac gacttatcgc cactggcagc agccactggt aacaggatta
+     3421 gcagagcgag gtatgtaggc ggtgctacag agttcttgaa gtggtggcct aactacggct
+     3481 acactagaag aacagtattt ggtatctgcg ctctgctgaa gccagttacc ttcggaaaaa
+     3541 gagttggtag ctcttgatcc ggcaaacaaa ccaccgctgg tagcggtggt ttttttgttt
+     3601 gcaagcagca gattacgcgc agaaaaaaag gatctcaaga agatcctttg atcttttcta
+     3661 cggggtctga cgctcagtgg aacgaaaact cacgttaagg gattttggtc atgagatc
+//

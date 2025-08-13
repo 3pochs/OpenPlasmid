@@ -1,67 +1,43 @@
 # Equinin B Plasmid
 
-This repository contains information and the sequence for a synthetic circular DNA plasmid encoding **Equinin B**, a broad-spectrum antimicrobial peptide (AMP). This plasmid is designed for expression in *Pichia pastoris*, a yeast species commonly used for protein production.
+## Overview
 
----
+This plasmid is designed for the expression of the Equinin B antimicrobial peptide in *Pichia pastoris*. The Equinin B gene is codon-optimized for efficient expression in this yeast host.
 
-## Background
+## Features
 
-Equinin B is a potent antimicrobial peptide originally isolated from the tentacles of the sea anemone *Actinia equina*. As a member of the cnidarian family, sea anemones use these peptides as a defense mechanism against pathogens. 
+- **Vector Backbone:** pPICZ-alpha A  
+- **Insert:** Equinin B antimicrobial peptide coding sequence  
+- **Size:** 3718 bp, circular DNA  
+- **Selection Marker:** Zeocin resistance (Bleomycin resistance gene)  
+- **Tags:** C-terminal Myc epitope tag and 6xHis affinity tag for detection and purification  
+- **Promoter:** Methanol-inducible AOX1 promoter  
+- **Secretion Signal:** MF-alpha-1 secretion signal for extracellular peptide secretion  
+- **Cloning Sites:** Insert optimized and integrated within pPICZ-alpha A backbone  
+- **Replication Origin:** ColE1/pMB1 origin for *E. coli* propagation  
 
-The research article ["Equinins as Novel Broad-Spectrum Antimicrobial Peptides Isolated from the Cnidarian Actinia equina (Linnaeus, 1758)"](https://doi.org/10.3390/md22040172) (La Corte et al., 2024) details the discovery, purification, and characterization of Equinin B.
+## Usage
 
-Equinin B has demonstrated effectiveness against:
+- Suitable for recombinant expression of Equinin B peptide in *Pichia pastoris* strains compatible with pPICZ vectors.  
+- Induce protein expression by adding methanol to cultures to activate AOX1 promoter.  
+- Secreted peptide can be purified from culture supernatant using Myc or His tags with standard affinity chromatography techniques.
 
-- **Gram-positive bacteria:**  
-  *Staphylococcus aureus*, *Micrococcus lysodeikticus*
+## Sequence Files
 
-- **Gram-negative bacteria:**  
-  *Escherichia coli*, *Pseudomonas aeruginosa*, *Vibrio alginolyticus*
+- Annotated GenBank file: `equininB-plasmid.gb`  
+- FASTA sequence file: `equininB-plasmid.fasta`  
+- Plasmid map images: `equininB-plasmid-map.png` and `equininB-plasmid-map.svg`
 
-- **Fungi:**  
-  *Candida albicans*
+## License
 
-- **Multi-drug resistant strains:**  
-  e.g., MRSA
+This plasmid is shared under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.  
+See the root repository LICENSE file for full terms.
 
----
+## Contact
 
-## Plasmid Features
+**Zahid Nassoro-Ally**  
+[GitHub Profile](https://github.com/3pochs) | nassorozahid@gmail.com
 
-This synthetic circular DNA plasmid is **3718 base pairs** in length. Key features include:
+## Disclaimer
 
-| Feature                       | Location (bp) | Description                                                                                   |
-|------------------------------|---------------|-----------------------------------------------------------------------------------------------|
-| **AOX1 Promoter**             | 2 – 940       | Inducible promoter from *Pichia pastoris*, activated by methanol for high-level gene expression. |
-| **MF-alpha-1 Secretion Signal** | 941 – 1207    | Secretion signal from *Saccharomyces cerevisiae*, directs secretion of Equinin B peptide.     |
-| **Equinin B Gene**            | 1214 – 1315   | Codon-optimized gene encoding Equinin B antimicrobial peptide.                                |
-|                              |               | **Translation:** `GQCQRKCLGHCSKKCPKHPQCRKRCIRRCFGYCL`                                         |
-| **Myc Tag**                  | 1377 – 1406   | Epitope tag for protein detection and purification.                                          |
-| **6xHis Tag**                | 1422 – 1439   | Polyhistidine affinity tag for IMAC purification.                                            |
-| **AOX1 Terminator**           | 1519 – 1765   | Transcription terminator sequence from *Pichia pastoris*.                                    |
-| **Bleomycin Resistance Gene (BleoR)** | 2288 – 2662 | Confers resistance to Zeocin antibiotic for selection of transformed cells.                   |
-| **Origin of Replication (ori)** | —             | High-copy-number ColE1/pMB1 origin for plasmid replication in *E. coli*.                      |
-
----
-
-## Sequence
-
-The full plasmid sequence is available in the `eq.txt` file within this repository.
-
-The amino acid sequence of the Equinin B peptide is: 
-GQCQRKCLGHCSKKCPKHPQCRKRCIRRCFGYCL
-
----
-
-## References
-
-- La Corte, C., et al. (2024).  
-  *Equinins as Novel Broad-Spectrum Antimicrobial Peptides Isolated from the Cnidarian Actinia equina (Linnaeus, 1758).*  
-  *Marine Drugs*, 22(4), 172.  
-  [https://doi.org/10.3390/md22040172](https://doi.org/10.3390/md22040172)
-
----
-
-*Feel free to reach out if you want help with cloning protocols, expression optimization, or downstream purification tips!*
-
-
+Provided "as-is" for research and educational purposes. Verify sequences and protocols before use.
