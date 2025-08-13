@@ -5,7 +5,8 @@ An open-source repository of genetically engineered plasmids for synthetic biolo
 ---
 ## 📂 Contents
 
-- [`plasmids/GH1/`](https://github.com/3pochs/OpenPlasmid/tree/main/plasmids/GH1) – Expression plasmid for mature Human Growth Hormone 1 (GH1), codon-optimized for *E. coli*  
+- [`plasmids/GH1/`](https://github.com/3pochs/OpenPlasmid/tree/main/plasmids/GH1) - Expression plasmid for mature Human Growth Hormone 1 (GH1), codon-optimized for *E. coli*
+- [`plasmids/EquininB/`](https://github.com/3pochs/OpenPlasmid/tree/main/plasmids/EquininB) - This plasmid is designed for the expression of the Equinin B antimicrobial peptide 
 - *(More plasmids coming soon – stay tuned!)*
 
 
